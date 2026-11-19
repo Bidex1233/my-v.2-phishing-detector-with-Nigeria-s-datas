@@ -40,8 +40,16 @@ The first run downloads the embedding model (about 420 MB).
 - `app.py`: Streamlit web app
 - `requirements.txt`: dependencies
 - `phishing_detector_v2_1.joblib`: the trained classifier
-- `notebooks/`: the Colab notebook used for training and testing
-- `data/`: training data and the locked test set
+- `phishing_detector_v2.ipynb`: the Colab notebook used for training and testing
+- `base_reduced.csv`: sample of general messages used for training
+- `nigerian_train.csv`: Nigerian-context training messages
+- `train_first60.csv`: my first 60 Nigerian-context messages (training)
+- `locked_test_80.csv`: the locked test set (80 messages), run once
+
+
+
+
+
 
 ## Data sources and credits
 - Munoz, M. and Islam, M. (2025). *A Balanced Dataset for Spam and Smishing Detection using Large Language Models (LLMs)*. Mendeley Data, DOI 10.17632/vmg875v4xs.1, licensed CC BY 4.0.
